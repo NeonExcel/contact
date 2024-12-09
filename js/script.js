@@ -181,7 +181,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "https://formsubmit.co/c37d932455e26bcbeecfc24d99b63cda"
+        email: "c37d932455e26bcbeecfc24d99b63cda"
     }
 }
 
