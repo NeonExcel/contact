@@ -181,7 +181,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "neonexcel@proton.me"
+        email: "c37d932455e26bcbeecfc24d99b63cda"
     }
 }
 
