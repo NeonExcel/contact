@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/logo.png">
+  <meta name="description" content="neonexcel.github.io">
+  <meta name="author" content="NeonExcel">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+
+  <title>Contact</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/logo.png" alt="Server logo" class="logo-img">
+          <h3 class="server-name">NeonExcel.Github.io</h3>
+        </div>
+      </a>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+        <div class="links">
+            <a href="https://neonexcel.github.io" class="link">Home</a>
+            <a href="https://neonexcel.github.io/servers" class="link">Servers</a>
+            <a href="https://neonexcel.github.io/admin-team" class="link">Admin-Team</a>
+            <a href="" class="link active">Contact</a>
+        </div>
+    </div>
+
+  <!--Header-->
+  <section id="header">
+    <div class="content">
+      <div class="info">
+        <p class="minecraft-server-ip"></p>
+        <h1 class="title"><span>Connect</span> with us</h1>
+      </div>
+      <p class="description">
+        Do you have a problem and need to solve it? Write to us below.
+      </p>
+    </div>
+  </section>
+
+  <!--Contacts-->
+  <section id="contacts">
+    <div class="content">
+      <h2 class="section-title">Contact form</h2>
+
+      <div class="columns">
+        <form class="contact-form" action="" method="POST">
+          <input type="hidden" name="_subject" value="Message From Website">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="" class="location-after-submit">
+
+          <div class="row">
+            <label for="name">* In-game username (or Real name)</label>
+            <input type="text" required id="name" name="name" placeholder="NeonXL">
+          </div>
+          <div class="row">
+            <label for="discord-name">Discord username</label>
+            <input type="text" id="discord-name" name="discord-name" placeholder="NeonExcel">
+          </div>
+          <div class="row">
+            <label for="email">* Email</label>
+            <input type="email" required id="email" name="email" placeholder="NeonExcel@example.com">
+          </div>
+          <div class="row">
+            <label for="message">* Message</label>
+            <textarea required id="message" name="message" placeholder="I have a question..."></textarea>
+          </div>
+          <div class="form-footer">
+            <p class="alert">Fields marked with * are required</p>
+            <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="footer">
+    <p class="copyright">&copy; 2024 <span class="server-name-footer">NeonExcel.Github.io</span>. All rights reserved.</p>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+</html>
